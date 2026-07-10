@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/fallphysio-api",
+  "version": "1.0.0",
+  "description": "fallphysio HTTP API · Express wrapper around @ai-native-solutions/fallphysio-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallphysio", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallphysio-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/fallphysio-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
